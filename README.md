@@ -1,10 +1,13 @@
+
+
 # aws-cli-configure
+
 To install the AWS CLI on your Ubuntu EC2 instance, follow these steps:
 
-1. Update Your Package Repository
+## 1. Update Your Package Repository
 First, make sure your package list is up to date:
 
-
+```bash
 sudo apt-get update
 2. Install Dependencies
 Install the required dependencies for the AWS CLI installation:
@@ -33,7 +36,8 @@ After the installation is complete, verify that AWS CLI is installed by checking
 aws --version
 You should see output similar to:
 
-
+Copy
+Edit
 aws-cli/2.x.x Python/3.x.x Linux/4.x.x
 7. Configure the AWS CLI
 Finally, configure the AWS CLI with your AWS Access Key ID, Secret Access Key, and default region:
@@ -52,3 +56,13 @@ To enable AWS CLI auto-completion (so you can use tab to complete commands), run
 
 complete -C '/usr/local/bin/aws_completer' aws
 Now you should be able to use AWS CLI on your EC2 instance!
+
+
+
+This should maintain the formatting when saved as a `.md` file in GitHub. Let me know if you need further changes or adjustments!
+
+
+
+
+
+
